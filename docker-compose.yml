@@ -60,7 +60,7 @@ services:
       
 
   web-server:
-    image: java:8
+    image: openjdk:8
     #restart: always
     privileged: true
     container_name: luckysheet-server  
